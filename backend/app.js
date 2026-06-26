@@ -20,7 +20,6 @@ try {
   // 1. Sincroniza o banco (cria a tabela 'Potions' na memória RAM)
   // O { force: true } limpa e recria a estrutura toda vez que o servidor reinicia
   await sequelize.sync({ force: true });
-  console.log("⚡ Banco de dados em memória sincronizado com sucesso!");
 
   // 2. Alimenta o banco com as poções de exemplo obrigatórias do enunciado
   await Potion.bulkCreate([

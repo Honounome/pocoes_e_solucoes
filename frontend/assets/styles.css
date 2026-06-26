@@ -150,8 +150,9 @@ textarea.form-input {
     margin-top: 20px;
 }
 
-.vitrine-grid p{
+.vitrine-grid > p {
     width: 300%;
+    max-width: 90vw;
 }
 
 .potion-card {
