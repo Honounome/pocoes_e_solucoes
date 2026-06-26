@@ -67,13 +67,12 @@ try {
       preco: 800.0
     }
   ]);
-  console.log("🧪 Poções iniciais da Merigold injetadas no banco com sucesso!");
 
   // 3. Inicia a escuta do servidor HTTP
   app.listen(port, function () {
-    console.log(`🚀 Servidor Web Service rodando redondo na porta ${port}!`);
+    console.log(`Servidor Web Service rodando na porta ${port}!`);
   });
 
 } catch (error) {
-  console.error("❌ Falha crítica ao iniciar o servidor ou o banco de dados:", error);
+  console.error("Falha crítica ao iniciar o servidor ou o banco de dados:", error);
 }
