@@ -1,0 +1,29 @@
+{
+  "name": "atividade_loja",
+  "version": "1.0.0",
+  "description": "pocoes e solucoes",
+  "homepage": "https://github.com/Honounome/pocoes_e_solucoes#readme",
+  "bugs": {
+    "url": "https://github.com/Honounome/pocoes_e_solucoes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honounome/pocoes_e_solucoes.git"
+  },
+  "license": "ISC",
+  "author": "14612350",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  },
+  "allowScripts": {
+    "sqlite3@6.0.1": true
+  }
+}
